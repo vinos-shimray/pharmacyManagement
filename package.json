@@ -1,0 +1,24 @@
+{
+  "name": "pharmacy",
+  "version": "1.0.0",
+  "description": "Simple Pharmacy Management System",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "dotenv": "^16.0.3",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "express-validator": "^3.2.1",
+    "moment": "^2.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "vinos",
+  "license": "Public"
+}
